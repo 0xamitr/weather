@@ -1,1 +1,19 @@
 
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 400px;
+}
+
+#div{
+    display: flex;
+    gap: 20px;
+}
+
+#weatherp{
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
