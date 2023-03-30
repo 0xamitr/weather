@@ -3,7 +3,9 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 400px;
-    background-image: url("starry-night-sky.jpg");
+    background-image: url("panoramic-view-sunset-night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -18,4 +20,5 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    height: 100px;
 }
