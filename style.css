@@ -3,6 +3,8 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 400px;
+    background-image: url("starry-night-sky.jpg");
+    color: white;
 }
 
 #div{
