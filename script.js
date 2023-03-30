@@ -4,7 +4,7 @@ async function getweather(city){
     const json = await weather.json();
     console.log(json);
     document.getElementById("location").innerText = `${json.location.name}, ${json.location.region}, ${json.location.country}`;
-    document.getElementById("weatherp").innerText = `${json.current.temp_c}°C ${json.current.temp_f}°F ${json.location.country}`;
+    document.getElementById("weatherp").innerText = `${json.current.temp_c}°C / ${json.current.temp_f}°F`;
 }
 
 function main(){
