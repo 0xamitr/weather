@@ -8,8 +8,15 @@ async function getweather(city){
 }
 
 function main(){
+    const input = document.getElementById("input");
     document.getElementById("submit").addEventListener("click", ()=>{
-        getweather(document.getElementById("input").value);
+        getweather(input.value);
+    })
+    input.addEventListener("keypress", function(e) {
+        if (e.key == "Enter"){
+            e.preventDefault;
+            getweather(input.value);
+        }
     })
 }
 
